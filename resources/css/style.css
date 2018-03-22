@@ -18,7 +18,64 @@ html {
   color: var(--text-color);
 }
 
+/* header */
+header {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  font-weight: 400;
+  background-color: white;
+  opacity: 0.9;
+  z-index: 1;
+  position: fixed;
+  left: 0; right: 0; top: 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+  flex-grow: 1;
+  padding-left: 48px;
+  font-weight: bold;
+}
+
+header nav {
+  padding-right: 40px;
+  justify-content: space-between;
+}
+
+header nav span {
+  padding-right: 1rem;
+  font-weight: 500;
+}
+
+a {
+  color: black !important;
+}
+
+
 /* Intro Container */
+
+#introcontainer {
+  margin-top: 1.5rem;
+}
+
+#introcontainer .about {
+  width: 60%;
+  overflow: auto;
+}
+
+#introcontainer .profile {
+  background-image: url("../assets/brij.png");
+  float: right;
+  background-position: center;
+  background-size: cover;
+  height: 335px;
+  width: 30%;
+  margin-top: -30px;
+}
 
 .name {
   font-size: 4rem;
@@ -28,8 +85,8 @@ html {
 
 .about {
   font-size: 1.4rem;
-  margin-top: -1em;
-  line-height: 2rem;
+  margin-top: -0.9em;
+  line-height: 2.1rem;
 }
 
 /* Process Container */
