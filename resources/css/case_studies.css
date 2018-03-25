@@ -15,7 +15,7 @@ html {
   margin-top: 2rem;
   margin-left: 18rem;
   margin-right: 18rem;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.8rem;
   color: var(--text-color);
 }
@@ -37,18 +37,18 @@ img {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
 }
 
-.styleguide {
+.onehundred {
   width: 100%;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-.logo {
-  width: 75%;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+.addplaylist {
+  width: 85%;
 }
 
-.coverphoto {
-  width: 100%;
+.seventyfive {
+  width: 75%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.05);
 }
 
 .landingpage {
@@ -56,39 +56,17 @@ img {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-.songpreview {
+.moveprofile, .songpreview {
   width: 60%;
 }
 
-.addplaylist {
-  width: 85%;
-}
-
-.moveprofile {
-  width: 60%;
-}
-
-.profilelayout {
-  width: 100%;
-}
-
-.scroll {
-  width: 100%;
-}
-
-.cool {
-  width: 70%;
-}
-
-.comm118 {
-  width: 100%;
-}
 /* Text */
 
 .caption {
   font-style: italic;
   text-align: center;
   font-size: 14px;
+  margin-top: 8px;
 }
 
 .sketch {
