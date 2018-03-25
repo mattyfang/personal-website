@@ -1,0 +1,96 @@
+/* Global Styling */
+
+* {
+  --text-color: #141414;
+  --subtext-color: #6d6d6d;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+html {
+  font-family: "Avenir", "Helvetica", sans-serif;
+  margin-top: 2rem;
+  margin-left: 18rem;
+  margin-right: 18rem;
+  font-size: 20px;
+  line-height: 1.8rem;
+  color: var(--text-color);
+}
+
+/* Image Styling */
+
+img {
+  display: block;
+  margin: 0 auto;
+  height: auto;
+}
+
+#intro img {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.08);
+}
+
+#problem img {
+  width: 30%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+}
+
+.styleguide {
+  width: 100%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  width: 75%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+}
+
+.coverphoto {
+  width: 100%;
+}
+
+.landingpage {
+  width: 25%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.songpreview {
+  width: 60%;
+}
+
+.addplaylist {
+  width: 85%;
+}
+
+.moveprofile {
+  width: 60%;
+}
+
+.profilelayout {
+  width: 100%;
+}
+
+.scroll {
+  width: 100%;
+}
+
+.cool {
+  width: 70%;
+}
+
+.comm118 {
+  width: 100%;
+}
+/* Text */
+
+.caption {
+  font-style: italic;
+  text-align: center;
+  font-size: 14px;
+}
+
+.sketch {
+  width: 50%;
+}

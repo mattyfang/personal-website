@@ -71,7 +71,7 @@ a {
 }
 
 #introcontainer .profile {
-  background-image: url("../assets/brij.png");
+  background-image: url("../assets/brij/brij.png");
   float: right;
   background-position: center;
   background-size: cover;
@@ -164,13 +164,13 @@ a {
 /* thumbnail pictures */
 
 #portfolio #brij .thumbnail {
-  background-image: url("../assets/brij.png");
+  background-image: url("../assets/brij/brij.png");
   background-position: center;
   background-size: cover;
 }
 
 #portfolio #livenation .thumbnail {
-  background-image: url("../assets/livenation.png");
+  background-image: url("../assets/livenation/livenation.png");
   background-position: center;
   background-size: cover;
 }
