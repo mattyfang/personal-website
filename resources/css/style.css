@@ -185,6 +185,35 @@ a {
   background-size: cover;
 }
 
+/* Learn More Container */
+
+#links .learnmore {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-top: 0.6em;
+}
+
+.sometext {
+  font-size: 1.2rem;
+  width: 50%;
+}
+
+.socialmedia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 10%;
+  margin-top: 4px;
+}
+
+i {
+  margin-bottom: 8px;
+}
+
+.container {
+  display: flex;
+}
+
 /* -------------------------------------------- */
 
 /* Section Bars */
@@ -209,5 +238,17 @@ a {
   width: 0.5rem;
   background-color: #7EB2DD;
   transform: translateX(-1.5rem) translateY(6rem);
+  z-index: -1;
+}
+
+#links .section {
+  border: 1px solid black;
+}
+
+#links #bar {
+  height: 4rem;
+  width: 0.5rem;
+  background-color: #7EB2DD;
+  transform: translateX(-1.5rem) translateY(5.2rem);
   z-index: -1;
 }
