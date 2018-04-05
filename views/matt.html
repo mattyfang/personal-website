@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  <head>                    <!-- remove /resources -->
     <link rel="stylesheet" href="./css/style.css" style="text/css">
 
-    <!-- fontawesome -->
+    <!-- fontawesome --> <!-- remove /resources -->
     <link rel="stylesheet" href="./FontAwesome/web-fonts-with-css/css/fontawesome-all.min.css">
 
     <title>Matt Fang</title>
@@ -18,7 +18,7 @@
         <span><a href="/">MF</a></span>
       </div>
       <!--other pages right side-->
-      <nav>
+      <nav>                         <!-- when finished change to /process -->
         <span><a class="navnav" href="/process">About my Process</a></span>
         <span><a target="_blank" href="./assets/resume.pdf">Resumé</a></span>
       </nav>
@@ -29,18 +29,11 @@
       <div id="bar"></div>
       <p class="name">Hey there! I'm Matt Fang.</p>
       <div id="infocontainer" class="section">
-        <div class="profile">I'll Put a Profile Picture Here</div>
-        <p class="about">I am a <b>Product Designer</b>, currently studying <b>Cognitive Science</b> and <b>Digital Humanities</b> at UCLA. When I am not designing, you can find me shooting videos, longboarding, and obsessing over cute hedgehogs.<br><br>For a list of what else I have done, feel free to view my <b><a target="_blank" href="./resources/assets/resume.pdf">resumé</a></b> or <b><a target="_blank" href="https://www.linkedin.com/in/matthew-fang/">LinkedIn</a></b>. In the meantime, check out my work and learn about my design process!</p>
+          <p class="about">I am currently at <b>UCLA</b> studying <b>Cognitive Science</b> and <b>Digital Humanities</b> while developing my career in <b>Product Design!</b> When I am not designing, you can find me shooting videos, longboarding, and obsessing over cute hedgehogs.<br><br>For a list of what else I have done, feel free to view my <b><a target="_blank" href="./resources/assets/resume.pdf">resumé</a></b> or <b><a target="_blank" href="https://www.linkedin.com/in/matthew-fang/">LinkedIn</a></b>. In the meantime, check out my work and learn about my design process!</p>
+          <img class="profilephoto" src="./resources/assets/MattFang.png" alt="">
+        </div>
       </div>
     </section>
-
-    <!-- Process Container --> <!--
-    <section id="processcontainer">
-      <div id="bar"></div>
-      <p class="header">My Design Process and Style.</p>
-      <div class="processpicture"></div>
-      <p class="info">In terms of <b>style</b>, I am heavily influenced by my passion and background in videography and filmmaking. I believe implementing proper visual experiences alongside intentional functionality is a crucial decision I make in all of my design projects. With a better story or better design composition comes a better user interaction and experience.</p>
-    </section> -->
 
     <!-- Portfolio Container  -->
     <section id="portfolio">
@@ -48,11 +41,11 @@
       <p class="header">I love making things to create better experiences for people.<br>Check out what projects I have made so far!</p>
       <!-- brij -->
       <div id="brij">
-        <a target="_blank" href="/brij">
+        <a target="_blank" href="brij">
           <div class="thumbnail"></div>
           <div class="details">
               <h2>brij: music discovery</h2>
-              <h3>Product Design, UI/UX, Branding</h3>
+              <h3>Product Design, Branding</h3>
               <p>Brij is a music application designed to redefine music discovery and sharing.</p>
           </div>
         </a>
@@ -69,6 +62,17 @@
         </a>
       </div>
       <!-- photoshop stuff -->
+      <div id="website">
+        <a target="_blank" href="/website">
+          <div class="thumbnail"></div>
+          <div class="details">
+              <h2>Portfolio Website</h2>
+              <h3>Design, Development</h3>
+              <p>Detailed design principle and process of my portfolio layout.</p>
+          </div>
+        </a>
+      </div>
+      <!-- photoshop stuff -->
       <div id="photoshop">
         <a target="_blank" href="/visuals">
           <div class="thumbnail"></div>
@@ -79,32 +83,32 @@
           </div>
         </a>
       </div>
-    </section>
-
+  </section>
     <!-- Learn More Container -->
     <div id="links" class="section">
       <div id="bar"></div>
       <p class="learnmore">To learn more about me...</p>
-      <div class="container">
+      <div id="container">
         <div class="sometext">
           <p>Watch my travel videos and vlogs on my <b>YouTube!</b></p>
           <p>Check out my life told in squares on <b>Instagram!</b></p>
           <p>Read about my thoughts on life, motivation,<br> and happiness on <b>Medium!</b></p><br>
-          <h4>For anything else...<br></h4>
-          <p>Feel free to fill up my inbox with any suggestions, comments, or an invite to talk at my <b>email!</b></p>
-          <h2>mattyfang10@gmail.com</h2>
         </div>
         <div class="socialmedia">
-          <a target="_blank" href="https://www.youtube.com/c/MattFangCreates/"><i class="fab fa-youtube fa-3x" style="color: #141414"></i></a>
-          <a target="_blank" href="https://www.instagram.com/mattyfang/"><i class="fab fa-instagram fa-3x" style="color: #141414"></i></a>
-          <a target="_blank" href="https://medium.com/@mattfang"><i class="fab fa-medium fa-3x" style="color: #141414"></i></a>
+          <a target="_blank" href="https://www.youtube.com/c/MattFangCreates/"><i class="fab fa-youtube fa-4x" style="color: #141414"></i></a>
+          <a target="_blank" href="https://www.instagram.com/mattyfang/"><i class="fab fa-instagram fa-4x" style="color: #141414"></i></a>
+          <a target="_blank" href="https://medium.com/@mattfang"><i class="fab fa-medium fa-4x" style="color: #141414"></i></a>
         </div>
       </div>
+    </div>
+    <div class="email">
+      <h4>For anything else...<br></h4>
+      <p>Feel free to fill up my inbox with any suggestions, comments, or an invite to talk at my <b>email!</b></p>
+      <h2>mattyfang10@gmail.com</h2>
     </div>
 
     <!-- footer but really just for more whitespace -->
     <div class=""><br><br></div>
-
 
   </body>
 </html>
