@@ -18,6 +18,56 @@ html {
   color: var(--text-color);
 }
 
+/* header */
+header {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  font-weight: 400;
+  background-color: #fcfcfc;
+  opacity: 0.8;
+  z-index: 1;
+  position: fixed;
+  left: 0; right: 0; top: 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+  flex-grow: 1;
+  padding-left: 48px;
+  font-weight: bold;
+}
+
+.logo a:hover {
+  color: var(--logo-color);
+}
+
+header nav {
+  padding-right: 40px;
+  justify-content: space-between;
+  display: inline-flex;
+  font-weight: 450;
+}
+
+.navnav {
+  margin-right: 2rem;
+}
+
+header .logo {
+  font-family: "Gloss and Bloom";
+  letter-spacing: 4px;
+  font-size: 24px;
+}
+
+a {
+  color: black !important;
+}
+
+
+
 /* Image Styling */
 
 img {
@@ -69,4 +119,10 @@ img {
 
 .sketch {
   width: 50%;
+}
+
+#process_text {
+  font-size: 0.9rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
 }

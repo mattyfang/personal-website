@@ -1,7 +1,7 @@
 * {
-  --text-color: #141414;
-  --logo-color: #999999;
-  --subtext-color: #6d6d6d;
+  --text-color: #262626;
+  --logo-color: #262626;
+  --subtext-color: #262626;
 }
 
 a {
@@ -15,6 +15,11 @@ html {
   margin-right: 12rem;
   font-size: 16px;
   color: var(--text-color);
+}
+
+@font-face {
+  font-family: "Gloss and Bloom";
+  src: url(../fonts/Gloss_And_Bloom.ttf) format("truetype");
 }
 
 /* header */
