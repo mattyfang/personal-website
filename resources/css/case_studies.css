@@ -85,6 +85,11 @@ img {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
 }
 
+.quarter {
+  width: 40%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
 .onehundred {
   width: 100%;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
