@@ -210,7 +210,6 @@ a {
   margin-top: -20px;
   justify-content: space-between;
   width: 20%;
-  border: 1px solid black;
   margin: 0 auto;
 }
 
@@ -250,7 +249,6 @@ i {
 }
 
 #links .section {
-  border: 1px solid black;
 }
 
 #links #bar {

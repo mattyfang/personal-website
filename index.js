@@ -39,6 +39,10 @@ app.get('/process', function(req, res) {
   res.render('process.html');
 });
 
+app.get('/website', function(req, res) {
+  res.render('website.html');
+});
+
 app.get('*', function(req, res) {
   res.send('404: page not found');
 });
