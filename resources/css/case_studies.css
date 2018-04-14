@@ -121,6 +121,15 @@ img {
   width: 50%;
 }
 
+.mobile {
+  width: 30%;
+}
+
+
+.rotate {
+  transform: rotate(90deg);
+  width: 70%;
+}
 #process_text {
   font-size: 0.9rem;
   margin-left: 4rem;

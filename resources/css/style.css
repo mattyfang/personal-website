@@ -86,7 +86,7 @@ a {
 #infocontainer {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   height: auto;
   width: 100%;
   margin-top: -1.5rem;
@@ -95,6 +95,7 @@ a {
 #infocontainer .about {
   width: 65%;
   font-size: 1.45rem;
+  height: auto;
 }
 
 #infocontainer .profilephoto {
@@ -169,7 +170,7 @@ a {
 }
 
 #portfolio #photoshop .thumbnail {
-  background-image: url("../assets/visuals/visual_cover.png");
+  background-image: url("../assets/visuals/visualcover.png");
   background-position: center;
   background-size: cover;
 }
@@ -189,7 +190,7 @@ a {
 }
 
 #container {
-  display: flex;
+  display: block;
   justify-content: space-between;
   align-items: center;
   height: auto;
@@ -200,15 +201,21 @@ a {
   font-size: 1.5rem;
   width: 70%;
   align-items: center;
+  margin: 0 auto;
 }
 
 #container .socialmedia {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin-top: -20px;
-  align-items: center;
   justify-content: space-between;
-  width: 40%;
+  width: 20%;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.email {
+  margin: 0 auto;
 }
 
 i {
