@@ -1,0 +1,94 @@
+
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+
+html {
+  font-family: "Avenir", "Helvetica", sans-serif;
+  font-size: 16px;
+  color: var(--text-color);
+
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 2s; /* Firefox < 16 */
+      -ms-animation: fadein 2s; /* Internet Explorer */
+       -o-animation: fadein 2s; /* Opera < 12.1 */
+          animation: fadein 2s;
+}
+
+#infocontainer {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  margin-top: 2.5rem;
+}
+
+#infocontainer .left {
+  width: 60%;
+  font-size: 1.2rem;
+  height: auto;
+  line-height: 1.9rem;
+}
+
+#infocontainer .profilephoto {
+  width: 60%;
+  height: auto;
+  overflow: hidden;
+}
+
+/* button */
+.button {
+    background-color: #7EB2DD;
+    border-radius: 4px;
+    margin-left: 10rem;
+    border: none;
+    color: white;
+    width: 10%;
+    height: auto;
+    padding: 1px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+/* fade in animation */
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@font-face {
+  font-family: "Gloss and Bloom";
+  src: url(../fonts/Gloss_And_Bloom.ttf) format("truetype");
+}
