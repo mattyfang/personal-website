@@ -113,7 +113,9 @@ a {
   color: black !important;
 }
 
-
+.bullets {
+  margin-left: 4rem;
+}
 
 /* Image Styling */
 
