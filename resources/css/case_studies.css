@@ -145,6 +145,11 @@ img {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
+.hunnid {
+  width: 100%;
+  margin: 0 auto;
+}
+
 .addplaylist {
   width: 85%;
 }
@@ -184,6 +189,7 @@ img {
   transform: rotate(90deg);
   width: 70%;
 }
+
 #process_text {
   font-size: 0.9rem;
   margin-left: 4rem;
