@@ -119,13 +119,15 @@ a {
 .name {
   font-size: 2rem;
   width: 60%;
-  margin: 5em auto 1em auto;
+  margin: 5em auto 3em auto;
+  line-height: 3rem;
 }
 
 .subheader {
   font-size: 1.2rem;
-  width: 60%;
+  width: 50%;
   margin: 3em auto 5em auto;
+  line-height: 1.5em;
   font-weight: 400;
 }
 
@@ -155,7 +157,6 @@ hr {
 } */
 
 /* Portfolio Container */
-
 
 #portfolio .header {
   font-size: 2rem;
@@ -239,7 +240,7 @@ hr {
 }
 
 #portfolio #photoshop .thumbnail {
-  background-image: url("../assets/visuals/visualcover.png");
+  background-image: url("../assets/visuals/visualscover.png");
   background-position: center;
   background-size: cover;
 }
@@ -253,9 +254,10 @@ hr {
 /* Learn More Container */
 
 #links .learnmore {
-  font-size: 2.5rem;
-  font-weight: 600;
-  margin-top: 0.6em;
+  font-size: 2rem;
+  font-weight: 100;
+  margin: 2em auto;
+  text-align: center;
 }
 
 #container {
@@ -266,11 +268,16 @@ hr {
   width: 100%;
 }
 
+#container .colorswap {
+  color: #414B56;
+}
+
 #container .sometext {
-  font-size: 1.5rem;
-  width: 70%;
+  font-size: 1.3rem;
+  width: 50%;
   align-items: center;
   margin: 0 auto;
+  color: #414B56;
 }
 
 #container .socialmedia {
