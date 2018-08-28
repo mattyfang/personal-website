@@ -181,7 +181,6 @@ hr {
   margin: 0 auto 2em auto;
   height: 20em;
   width: 60em;
-  background-color: #7EB2DD;
 }
 
 #portfolio .details {
@@ -228,7 +227,7 @@ hr {
 }
 
 #portfolio #livenation .thumbnail {
-  background-image: url("../assets/livenation/LN_cover.png");
+  background-image: url("../assets/livenation/ln_cover.png");
   background-position: center;
   background-size: cover;
 }
