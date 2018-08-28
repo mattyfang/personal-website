@@ -216,7 +216,7 @@ hr {
 /* thumbnail pictures */
 
 #portfolio #warbyparker .thumbnail {
-  background-image: url("../assets/warbyparker/WP_cover.png");
+  background-image: url("../assets/warbyparker/wp_cover.png");
   background-position: center;
   background-size: cover;
 }
