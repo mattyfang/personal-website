@@ -10,9 +10,6 @@ a {
 
 html {
   font-family: "Avenir", "Helvetica", sans-serif;
-  margin-top: 2rem;
-  margin-left: 14rem;
-  margin-right: 14rem;
   font-size: 18px;
   line-height: 1.8rem;
   color: var(--text-color);
@@ -24,9 +21,17 @@ html {
           animation: fadein 2s;
 }
 
-h1, h2, h3, h4, h5, h6, span, p, ol{
-  margin-left: 3rem;
-  margin-right: 3rem;
+hr {
+  width: 50%;
+}
+
+h1, h2, h3, h4, h5, h6, span, p, ol, li, i, ul{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.bullets {
+  width: 80%;
 }
 
 /* fade in animation */
@@ -99,10 +104,6 @@ header nav {
   font-weight: 450;
 }
 
-.navnav {
-  margin-right: 2rem;
-}
-
 header .logo {
   font-family: "Gloss and Bloom";
   letter-spacing: 4px;
@@ -113,59 +114,42 @@ a {
   color: black !important;
 }
 
-.bullets {
-  margin-left: 4rem;
-}
-
 /* Image Styling */
-
 img {
   display: block;
   margin: 0 auto;
   height: auto;
 }
 
-#intro img {
-  margin: 0 auto;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.08);
+.ten {
+  width: 15%;
+  height: auto;
 }
 
-#problem img {
-  width: 30%;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+.twenty {
+  width: 20%;
+  height: auto;
 }
 
-.quarter {
-  width: 40%;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+.twentyfive {
+  width: 25%;
+  height: auto;
 }
 
-.onehundred {
-  width: 100%;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
-.hunnid {
-  width: 100%;
-  margin: 0 auto;
-}
-
-.addplaylist {
-  width: 85%;
+.fifty {
+  width: 50%;
+  height: auto;
 }
 
 .seventyfive {
   width: 75%;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.05);
+  height: auto;
 }
 
-.landingpage {
-  width: 25%;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
-.moveprofile, .songpreview {
-  width: 60%;
+.onehundred {
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 /* Text */
@@ -177,25 +161,12 @@ img {
   margin-top: 8px;
 }
 
-.sketch {
-  width: 50%;
-}
-
-.mobile {
-  width: 30%;
-}
-
 .rotate {
   transform: rotate(90deg);
   width: 70%;
 }
 
-#process_text {
-  font-size: 0.9rem;
-  margin-left: 4rem;
-  margin-right: 4rem;
-}
-
 .case-study-title {
-  width: 100%;
+  width: 70%;
+  margin: 0 auto;
 }

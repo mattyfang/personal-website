@@ -126,13 +126,18 @@ a {
 .subheader {
   font-size: 1.2rem;
   width: 50%;
-  margin: 3em auto 5em auto;
+  margin: 5em auto 5em auto;
   line-height: 1.5em;
   font-weight: 400;
 }
 
 hr {
   width: 30%;
+}
+
+.vl {
+  border-left: 1px solid green;
+  height: 500px;
 }
 /*
 
@@ -182,6 +187,14 @@ hr {
   margin: 0 auto 2em auto;
   height: 20em;
   width: 60em;
+  -webkit-transition: 0.7s;
+}
+
+#portfolio .thumbnail:hover {
+  height: 19em;
+  margin: 0 auto 2em auto;
+  width: 59em;
+  -webkit-transition: 0.3s;
 }
 
 #portfolio .details {
