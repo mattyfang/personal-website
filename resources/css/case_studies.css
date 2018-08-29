@@ -1,6 +1,6 @@
 * {
-  --text-color: #141414;
-  --subtext-color: #6d6d6d;
+  --text-color: #333333;
+  --subtext-color: #414B56;
 }
 
 a {
@@ -32,6 +32,18 @@ h1, h2, h3, h4, h5, h6, span, p, ol, li, i, ul{
 
 .bullets {
   width: 80%;
+}
+
+.name {
+  font-size: 1.8rem;
+  width: 60%;
+  margin: 5em auto 5em auto;
+  line-height: 3rem;
+  text-align: center;
+}
+
+.verticaline {
+  border-left:
 }
 
 /* fade in animation */
