@@ -34,6 +34,16 @@ h1, h2, h3, h4, h5, h6, span, p, ol, li, i, ul{
   width: 80%;
 }
 
+.morebullets {
+  width: 90%;
+}
+
+.cover {
+  background-image: url("../assets/warbyparker/wp_cover.png");
+  background-position: center;
+  background-size: cover;
+  }
+
 .name {
   font-size: 1.8rem;
   width: 60%;
