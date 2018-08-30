@@ -24,7 +24,7 @@ app.get('/', function(req, res) {
 });
 
 app.get('/warbyparker', function(req, res) {
-  res.render('wp.html');
+  res.render('warbyparker.html');
 });
 
 app.get('/wp_iOS', function(req, res) {
