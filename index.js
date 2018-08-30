@@ -23,6 +23,14 @@ app.get('/', function(req, res) {
   res.render('matt.html');
 });
 
+app.get('/warbyparker', function(req, res) {
+  res.render('wp.html');
+});
+
+app.get('/wp_iOS', function(req, res) {
+  res.render('wp_iOS.html');
+});
+
 app.get('/brij', function(req, res) {
   res.render('brij.html');
 });
