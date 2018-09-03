@@ -8,11 +8,16 @@ a {
   color: var(--text-color);
 }
 
+body {
+  margin: 0;
+}
+
 html {
   font-family: "Avenir", "Helvetica", sans-serif;
   font-size: 18px;
   line-height: 1.8rem;
   color: var(--text-color);
+  background-color: #f9f9f9;
 
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
      -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -158,6 +163,11 @@ img {
   height: auto;
 }
 
+.thirtyfive {
+  width: 35%;
+  height: auto;
+}
+
 .fifty {
   width: 50%;
   height: auto;
@@ -192,3 +202,32 @@ img {
   width: 70%;
   margin: 0 auto;
 }
+
+video {
+  width: 100%;
+}
+
+.old {
+  height: auto;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#container {
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  margin: 2em auto 5em auto;
+}
+
+#container .left {
+  width: 60%;
+  height: auto;
+}
+
+#container .right {
+  width: 20%;
+  height: auto;
+}
+
+/* containers n shit */
