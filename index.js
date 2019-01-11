@@ -39,7 +39,7 @@ app.get('/livenation', function(req, res) {
   res.render('livenation.html');
 });
 
-app.get('/sep', function(req, res) {
+add.get('/sep', function)req, res) {
   res.render('sep.html');
 });
 
