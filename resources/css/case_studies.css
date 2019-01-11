@@ -31,8 +31,9 @@ hr {
 }
 
 h1, h2, h3, h4, h5, h6, span, p, ol, li, i, ul{
-  width: 60%;
+  width: 55%;
   margin: 0 auto;
+
 }
 
 .bullets {
@@ -156,10 +157,30 @@ img {
   height: auto;
 }
 
+#adjust {
+  float: left;
+  display: flex;
+}
+
+#adjust img {
+  width: 10%;
+  height: 100%;
+}
+
+#adjust p {
+  float: right;
+}
+
+.seven {
+  width: 10%;
+  height: auto;
+}
+
 .ten {
   width: 15%;
   height: auto;
 }
+
 
 .twenty {
   width: 20%;
@@ -211,6 +232,7 @@ img {
   margin: 0 auto;
 }
 
+
 video {
   width: 100%;
 }
@@ -256,15 +278,6 @@ video {
   width: 20%;
   height: auto;
 }
-
-
-
-
-
-
-
-
-
 
 
 /* button */

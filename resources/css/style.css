@@ -254,11 +254,18 @@ hr {
   background-size: cover;
 }
 
+#portfolio #sep .thumbnail {
+  background-image: url("../assets/sep/sep_cover.png");
+  background-position: center;
+  background-size: cover;
+}
+
 #portfolio #wp_ios .thumbnail {
   background-image: url("../assets/wp_ios/wp_ios_cover.png");
   background-position: center;
   background-size: cover;
 }
+
 
 #portfolio #photoshop .thumbnail {
   background-image: url("../assets/visuals/visualscover.png");
